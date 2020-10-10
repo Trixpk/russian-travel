@@ -23,3 +23,22 @@
   bottom: 0;
   right: 0;
 }
+
+@media (max-width: 1024px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__link {
+    margin-bottom: 64px;
+    min-height: 200px;
+  }
+}

@@ -1,3 +1,9 @@
 .footer__menu-item {
   margin-right: 18px;
 }
+
+@media (max-width: 320px) {
+  .footer__menu-item {
+    margin-bottom: 32px;
+  }
+}
