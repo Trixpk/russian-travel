@@ -19,5 +19,6 @@
   .header {
     max-width: 288px;
     margin-top: 16px;
+    padding: 0 16px;
   }
 }
