@@ -19,7 +19,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .photo-grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
