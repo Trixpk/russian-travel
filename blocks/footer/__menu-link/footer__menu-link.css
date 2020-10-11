@@ -5,3 +5,14 @@
   line-height: 18px;
   font-weight: normal;
 }
+
+.footer__menu-link:hover {
+  opacity: .8;
+}
+
+@media (max-width: 320px) {
+  .footer__menu-link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
