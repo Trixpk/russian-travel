@@ -1,11 +1,18 @@
 .header {
   max-width: 1184px;
   min-width: 320px;
+  width: calc(100% - 48px * 2);
   margin: 28px auto 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: calc(100% - 24px * 2);
+  }
 }
 
 @media (max-width: 320px) {
